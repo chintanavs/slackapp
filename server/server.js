@@ -71,11 +71,7 @@ socket.on('createLocationMessage',(coords)=>{
   }
 });
 
-socket.on('disconnect',()=>{
-  var user=users.removeUser(socket.id);
-  if(user){
-  
-  }
+
 });
 
 });
